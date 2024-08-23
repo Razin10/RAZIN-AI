@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('your-background-image.jpg');  Replace with your desired image 
+    background-size: cover;
+    background-position: center;
+} 
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.form-container.active {
+    display: block;
+}
+
+/* Style individual form elements as needed */
+
+/* Reset styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #4CAF50, #8BC34A); /* গ্রাডিয়েন্ট ব্যাকগ্রাউন্ড */
+}
+
+/* Form container styling */
+.form-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* স্বচ্ছ পটভূমি */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px); /* 
+    সামান্য উপরে তুলে */
+    border-radius: 15px;
+}
+
+/* Form elements styling */
+p {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 3px;
+    background: transparent;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #4CAF50;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    padding-top: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #3e8e41;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+.h4R{
+    text-align: center;
+}
